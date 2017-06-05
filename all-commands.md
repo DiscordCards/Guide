@@ -107,7 +107,3 @@ This is a list of all the command currently in the bot.
 | quest | View your current quest. | `[]quest` | 2 | *none* |
 | qget | Get a new quest. | `[]qget` | 21600 | `[]getquest`, `[]questget` |
 | qcheck | Execute your quest for rewards. | `[]qget` | 2 | `[]checkquest`, `[]executequest`, `[]qexecute` |
-
----
-
-This article is still being completed, check back later!
