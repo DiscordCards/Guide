@@ -2,7 +2,7 @@
 
 This is a list of all the command currently in the bot.
 
-#### General
+#### Clubs
 
 | Command | Description | Usage | Cooldown | Aliases |
 |---------|-------------|-------|----------|---------|
