@@ -22,7 +22,7 @@ This is a list of all the command currently in the bot.
 | []cmembers | Views members in the club. | `[]cmembers [name] <\| [page]>` | 1 | `[]cm` |
 | []crank | Changes the rank of a person in a club. | `[]crank [name] \| [@mention] [newrank]` | 1 | *none* |
 | []crinv | Removes an invite from a club. | `[]crinv [@mention] [name]` | 1 | `[]cremoveinvite` |
-| []csetting |  | `` |  |  |
+| []csetting | Edits or views setting in the club. | `[]csetting [name] \| [setting] <value>` | 1 | `[]cs` |
 | []cunban | Unbans someone from a club. | `[]cunban [@mention] [name]` | 1 | *none* |
 | []pclubs | Get your clubs (or someone elses) | `[]pclubs <@mention>` | 2 | `[]myclubs` |
 
