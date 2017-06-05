@@ -13,12 +13,42 @@ This is a list of all the command currently in the bot.
 | pong | Ping! | `[]pong` | 1 | *none* |
 | serverinvite | Gets an invite link for the official server. | `[]serverinvite`| 1 | *none* |
 
+#### Market
+
+| Command | Description | Usage | Cooldown | Aliases |
+|---------|-------------|-------|----------|---------|
+| boexecute | Executes a buying offer on the global market | `[]boexecute [offer id] <amount>` | 10 | `[]gbsell`, `[]gbe`, `[]boe` |
+| boffer | Puts a buying offer on the global market | `[]boffer [item] [amount] [price per item]` | 10 | `[]gbbuy` |
+| bolist | Shows a list of all buying offers | `[]bolist <page>` | 2 | `[]gblist`, `[]gbl`, `[]bol` |
+| bosearch | Searches for an item on buying offers. | `[]bosearch [item] <page>` | 2 | `[]gbsearch`, `[]gbs`, `[]bos` |
+| myoffers | Shows a list of your current offers | `[]myoffers <page>` | 2 | `[]gmlist`, `[]mo`, `[]gml` |
+| oinfo | Gets offer information | `[]oinfo [offer id]` | 1 | `[]gbinfo`, `[]offerinfo`, `[]gminfo` |
+| ostop | Stops an offer | `[]oinfo [offer id]` | 1 | `[]gmstop`, `[]gbstop`, `[]stopoffer` |
+| soexecute | Executes a selling offer on the global market | `[]soexecute [offer id] <amount>` | 10 | `[]gmbuy`, `[]gse`, `[]soe` |
+| soffer | Puts a selling offer on the global market | `[]soffer [item] [amount] [price per item]` | 10 | `[]gmsell` |
+| solist | Shows a list of all selling offers | `[]solist <page>` | 2 | `[]gmglist`, `[]gmgl`, `[]sol` |
+| sosearch | Searches for an item on selling offers. | `[]sosearch [item] <page>` | 2 | `[]gmsearch`, `[]gms`, `[]sos` |
+
 #### Minigames
 
 | Command | Description | Usage | Cooldown | Aliases |
 |---------|-------------|-------|----------|---------|
 | cardguess | Guess cards for 💵. | `[]cardguess` | 60 | `[]cg` |
 | slots | Do slots for 💵. | `[]slots [bet]` | 10 | *none* |
+
+#### Shop
+
+| Command | Description | Usage | Cooldown | Aliases |
+|---------|-------------|-------|----------|---------|
+| badge | Shows information about an badge. | `[]badge [name]` | 5 | *none* |
+| badges | Lists all badges | `[]badges <page>` | 2 | *none* |
+| buypack | Purchase a pack. | `[]buypack [series] <amount>` | 2 | *none* |
+| card | Shows information about an card. | `[]card [name]` | 2 | *none* |
+| cards | Shows a list of cards | `[]cards <page>` | 2 | *none* |
+| daily | Recieve daily 💵. | `[]daily` | 10 | *none* |
+| fusecards | Fuses all cards of one series into a badge. | `[]fusecards [series]` | 2 | `[]makebadge` |
+| openpack | Opens a pack. | `[]openpack [series]` | 10 | *none* |
+| series | Shows a list of series | `[]series <page>` | 2 | `[]packs` |
 
 #### Stats
 
@@ -31,13 +61,28 @@ This is a list of all the command currently in the bot.
 | ssetting | Edit or view server settings. | `[]ssetting <setting [value]>` | 1 | `[]mybadges` |
 | stats | Get your own statistics (or someone elses) | `[]stats <@mention>` | 2 | *none* |
 
+#### Trading
+
+| Command | Description | Usage | Cooldown | Aliases |
+|---------|-------------|-------|----------|---------|
+| donate | Donate someone 💵. | `[]donate [@mention] [amount]` | 3 | *none* |
+| gift | Gift someone an item. | `[]give [@mention] [item] [amount]` | 3 | *none* |
+| taccept | Accepts a trade request. | `[]taccept` | 1 | `[]accepttrade` |
+| tadditem | Adds an item to the trade. | `[]tadditem [item] [amount]` | 3 | `[]addtradeitem`, `[]tradeadditem` |
+| tdeny | Declines or stops a trade. | `[]tdeny` | 1 | `[]denytrade`, `[]declinetrade`, `[]tdecline` |
+| tok | Toggles accepting the current trade. | `[]tok` | 1 | `[]oktrade` |
+| trade | Shows the current trade standing. | `[]trade` | 5 | *none* |
+| tremoveitem | Removes an item from the trade. | `[]tremoveitem [item] [amount]` | 3 | `[]removetradeitem`, `[]traderemoveitem` |
+| tsetmoney | Sets how much 💵 you offer. | `[]tsetmoney [amount]` | 3 | `[]settrademoney`, `[]tradesetmoney` |
+| tstart | Start a trade request with a person | `[]tstart [@mention]` | 10 | `[]starttrade` |
+
 #### Quests
 
 | Command | Description | Usage | Cooldown | Aliases |
 |---------|-------------|-------|----------|---------|
 | quest | View your current quest. | `[]quest` | 2 | *none* |
 | qget | Get a new quest. | `[]qget` | 21600 | `[]getquest`, `[]questget` |
-| qcheck | Execute your quest for rewards. | `[]qget` | 21600 | `[]checkquest`, `[]executequest`, `[]qexecute` |
+| qcheck | Execute your quest for rewards. | `[]qget` | 2 | `[]checkquest`, `[]executequest`, `[]qexecute` |
 
 ---
 
