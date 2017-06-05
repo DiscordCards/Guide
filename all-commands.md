@@ -12,19 +12,19 @@ This is a list of all the command currently in the bot.
 | ccreate | Create a club. | `[]ccreate [name]` | 1 | *none* |
 | ceditdesc | Edits the description of a club. | 1 | `[]cedesc` |
 | ceditname | Renames a club. | `[]ceditname [name] \| [newname]` | 1 | `[]cename` |
-| []cgiveowner | Transfers club ownership to someone. | `[]cgiveowner [@mention] [name]` | 1 | `[]cgo` |
-| []cinv | Invite someone to a club. | `[]cinv [@mention] [name]` | 1 | `[]cinvite` |
-| []cinvlist | List club invites. | `[]cinvlist [name] <\| [page]>` | 1 | `[]cil` |
-| []cjoin | Join a club. | `[]cjoin [name]` | 1 | *none* |
-| []ckick | Kicks someone from a club. | `[]ckick [@mention] [name]` | 1 | *none* |
-| []cleave | Leave a club, doing this as a owner disbands the club. | `[]cleave [name]` | 1 | *none* |
-| []club | View a club. | `[]club [name]` | 1 | *none* |
-| []cmembers | Views members in the club. | `[]cmembers [name] <\| [page]>` | 1 | `[]cm` |
-| []crank | Changes the rank of a person in a club. | `[]crank [name] \| [@mention] [newrank]` | 1 | *none* |
-| []crinv | Removes an invite from a club. | `[]crinv [@mention] [name]` | 1 | `[]cremoveinvite` |
-| []csetting | Edits or views setting in the club. | `[]csetting [name] \| [setting] <value>` | 1 | `[]cs` |
-| []cunban | Unbans someone from a club. | `[]cunban [@mention] [name]` | 1 | *none* |
-| []pclubs | Get your clubs (or someone elses) | `[]pclubs <@mention>` | 2 | `[]myclubs` |
+| cgiveowner | Transfers club ownership to someone. | `[]cgiveowner [@mention] [name]` | 1 | `[]cgo` |
+| cinv | Invite someone to a club. | `[]cinv [@mention] [name]` | 1 | `[]cinvite` |
+| cinvlist | List club invites. | `[]cinvlist [name] <\| [page]>` | 1 | `[]cil` |
+| cjoin | Join a club. | `[]cjoin [name]` | 1 | *none* |
+| ckick | Kicks someone from a club. | `[]ckick [@mention] [name]` | 1 | *none* |
+| cleave | Leave a club, doing this as a owner disbands the club. | `[]cleave [name]` | 1 | *none* |
+| club | View a club. | `[]club [name]` | 1 | *none* |
+| cmembers | Views members in the club. | `[]cmembers [name] <\| [page]>` | 1 | `[]cm` |
+| crank | Changes the rank of a person in a club. | `[]crank [name] \| [@mention] [newrank]` | 1 | *none* |
+| crinv | Removes an invite from a club. | `[]crinv [@mention] [name]` | 1 | `[]cremoveinvite` |
+| csetting | Edits or views setting in the club. | `[]csetting [name] \| [setting] <value>` | 1 | `[]cs` |
+| cunban | Unbans someone from a club. | `[]cunban [@mention] [name]` | 1 | *none* |
+| pclubs | Get your clubs (or someone elses) | `[]pclubs <@mention>` | 2 | `[]myclubs` |
 
 #### General
 
