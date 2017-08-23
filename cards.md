@@ -1,5 +1,5 @@
 # Cards
-<style>.card {width: 160px; height: 248px;}</style>
+<style>.card img {width: 160px; height: 248px;}</style>
 
 ## Rarities
 | <div style='color:#6a87fa'>Common</div> | <div style='color:#93C452'>Uncommon</div> | <div style='color:#D4C843'>Rare</div> | <div style='color:#D35044'>Super Rare</div> |
