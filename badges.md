@@ -1,4 +1,4 @@
-# This page is still in progress :(
+# Badges
 
   - Card Collector Badges
   - Special Badges
