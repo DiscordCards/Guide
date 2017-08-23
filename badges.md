@@ -1,7 +1,4 @@
-# This page is still in progress :(
-
-  - Card Collector Badges
-  - Special Badges
+# Badges
 
 ## Card Collector Badges
 **How do I get these?**  
