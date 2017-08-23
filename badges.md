@@ -1,8 +1,5 @@
 # Badges
 
-  - Card Collector Badges
-  - Special Badges
-
 ## Card Collector Badges
 **How do I get these?**  
 By collecting all cards within a collection.  
