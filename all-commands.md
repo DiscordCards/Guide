@@ -78,7 +78,10 @@ This is a list of all the command currently in the bot.
 
 | Command | Description | Usage | Cooldown | Aliases |
 |---------|-------------|-------|----------|---------|
+| album | Shows information about an album. | `[]album [id]` | 5 | *none* |
+| albums | Lists all albums. | `[]albums` | 2 | *none* |
 | balance | Get your own balance (or someone elses) | `[]balance <@mention>` | 10 | `[]bal`, `[]money` |
+| cardtoalbum | Makes a card into a piece of the album. | `[]cardtoalbum [card name]` | 2 | `[]card2album`, `[]c2a` |
 | inv | Get your own inventory (or someone elses) | `[]inv <@mention> <page>` | 3 | *none* |
 | pbadges | Get your badges (or someone elses) | `[]pbadges <@mention>` | 10 | `[]mybadges` |
 | setting | Edit or view settings. | `[]setting [setting] <value>` | 1 | `[]set` |
