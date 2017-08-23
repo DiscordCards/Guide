@@ -29,5 +29,5 @@ There are market stats on each showing what the count, lowest and average buying
 >- Average - The average selling price
 >- Lowest - The lowest selling price
 
-<div style='padding: 20px; border-radius: 30px; background: #6a87fa; height:520px; width:449px ;'>![](https://i-need.discord.cards/49469e.png)</div>  
+<div style='padding: 20px; border-radius: 30px; background: #6a87fa; height:520px; width:449px ;'><img style="width:100%" src="https://i-need.discord.cards/49469e.png"></div>  
 Here is an example view of a card, *timestamps and number of cards owned has been blurred out for this.*  
