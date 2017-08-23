@@ -14,13 +14,13 @@ These offers have cards put on the trade and the offer author will ask for a sum
 <div style='text-align: center; font-size: 25px; margin-bottom: 10px;'>
 **Selling Trade**
 </div>
-![](https://i-need.discord.cards/8a7d11.png)</div>
+<img style="width:100%" src="https://i-need.discord.cards/8a7d11.png"></div>
 
 <div style='margin: 5px; padding: 20px; border-radius: 30px; background: #6a87fa; height:240px; width:360px;'>
 <div style='text-align: center; font-size: 25px; margin-bottom: 10px;'>
 **Buying Trade**
 </div>
-![](https://i-need.discord.cards/bd4eed.png)
+<img style="width:100%" src="https://i-need.discord.cards/bd4eed.png">
 </div>
 
 
