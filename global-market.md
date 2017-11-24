@@ -35,38 +35,35 @@ These offers have cards put on the trade and the offer author will ask for a sum
 
 ## Using the market
 
-**I want to execute a trade.**
-For the buying market, use `[]boexecute <offer-id> [amount]`
-For the selling market, use `[]soexecute <offer-id> [amount]`
+**I want to execute a trade.**  
+For the buying market, use `[]boexecute <offer-id> [amount]`.  
+For the selling market, use `[]soexecute <offer-id> [amount]`.
 
-**How do I view a trade?**
-For the buying market, use `[]boffer <offer-id>`
-For the selling market, use `[]soffer <offer-id>`
+**How do I view a trade?**  
+For the both markets, use `[]oinfo [offer id]`.
 
-**How do I start a trade?**
-For the buying market, use `[]`
-For the selling market, use `[]`
+**How do I start a trade?**  
+For the buying market, use `[]soffer [item] [amount] [price per item]`.  
+For the selling market, use `[]boffer [item] [amount] [price per item]`.
 
-**How do I stop a trade?**
-For the buying market, use `[]`
-For the selling market, use `[]ostop`
+**How do I stop a trade?**  
+For the both markets, use `[]ostop [offer id]`.
 
-**How do I view all of my trades?**
-For the buying market, use `[]`
-For the selling market, use `[]`
+**How do I view all of my trades?**  
+For the both markets, use `[]myoffers <page>`.
 
-**How do I view all trades on the market?**
-For the buying market, use `[]bolist [page]`
-For the selling market, use `[]solist [page]`
+**How do I view all trades on the market?**  
+For the buying market, use `[]bolist [page]`.  
+For the selling market, use `[]solist [page]`.
 
-**How do I search for an item on the market?**
-For the buying market, use `[]bosearch [query] [page]`
-For the selling market, use `[]sosearch [query]`
+**How do I search for an item on the market?**  
+For the buying market, use `[]bosearch [query] [page]`.  
+For the selling market, use `[]sosearch [query] [page]`.
 
 The following below can be used as search modifiers:
-- `#CARD_ID` - Searches card offers with that ID
-- `$RARITY` - Searches card offers with that rarity
-- `%SERIES` - Searches card and card pack offers with that series ID
+- `#CARD_ID` - Searches card offers with that ID.
+- `$RARITY` - Searches card offers with that rarity.
+- `%SERIES` - Searches card and card pack offers with that series ID.
 
 **Example Searches:**
 - `[]sosearch b1nzy`  
